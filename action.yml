@@ -1,0 +1,11 @@
+name: "OpenProect Data Export"
+description: "Download JSON date from OpenProject"
+
+inputs:
+  url:
+    description: "URL to connect to OpenProject API"
+    required: true
+
+runs:
+  using: "node16"
+  main: "dist/index.js"
